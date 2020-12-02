@@ -1,0 +1,112 @@
+header{
+	background-color: white;
+	align-self: center;
+}
+
+header img{
+	height: 5rem;
+}
+
+header a{
+	text-align: right;
+	background-color: white;
+	font-family: "didoni-urw",serif;
+	font-size: 2rem;
+	color: #000000;
+	
+}
+
+
+.save{
+	background-color: black;
+
+
+}
+.save h1,h2{
+	background-color: black;
+	text-align: center;
+	font-size: 3rem;
+	color:#ffffff;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-family: "didoni-urw",serif;
+}
+
+
+
+.gym h1{
+	text-align: center;
+	font-family: "didoni-urw",serif;
+	background-color: #000000;
+
+
+}
+
+.gym{
+	background-color: #ffffff;
+
+
+}
+
+.food h1{
+	background-color: #000000;
+	text-align: center;
+	padding: 5rem;
+	color: #ffffff;
+	font-family: "didoni-urw",serif;
+	font-size: 3rem;
+}
+.spa h1,.spa h2,.spa h3{
+	background-color: #000000;
+	text-align: center;
+	font-size: 3rem;
+	color:#ffffff;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-family: "didoni-urw",serif;
+}
+.reservation h1{
+	font-family: "didoni-urw",serif;
+	text-align: center;
+	font-size: 3rem;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 4rem;
+
+}
+
+.book{
+	background-color: #000000;
+}
+
+.book h1{
+	background-color: #000000;
+	text-align: center;
+	padding: 5rem;
+	color: #ffffff;
+	font-family: "didoni-urw",serif;
+	font-size: 3rem;
+}
+
+.reveal h1{
+	background-color: #000000;
+	text-align: center;
+	padding: 5rem;
+	color: #ffffff;
+	font-family: "didoni-urw",serif;
+	font-size: 3rem;
+
+}
+
+.footer{
+	padding: 4rem;
+}
+
+
+.footer h1, .footer h2,.footer h3{
+	font-family: "didoni-urw",serif;
+	text-align: center;
+	font-size: 3rem;
+	background-color: #000000;
+	color: #ffffff;
+}

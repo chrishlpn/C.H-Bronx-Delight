@@ -1,0 +1,220 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bronx Denizen</title>
+    <link rel="stylesheet" href="https://use.typekit.net/sot3gjj.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+
+    <header>  
+      <div class="grid-container">
+        <div class="grid-x align-middle">
+          <div class="cell small-6">
+
+          <img src="img/logo.png">
+
+        </div>
+
+
+        <div class="small-6 cell">
+          <div class="menu align-right" data-magellan>
+          
+         <a href="#gym" class="active">Gym</a>
+         <a href="#spa" class="active">Spa</a>
+         <a href="#book" class="active">Book</a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+       </header>       
+
+
+      <section class="save">
+        
+        <h1>Save Now on</h1>
+        <h2>One of NYC's best hotels</h2>
+      <div class="grid-container">
+      <div class="grid-x">
+          <img src="img/save.jpg">
+
+         </div>
+         </div>
+         
+        
+        
+      </div>
+
+      </section>
+
+
+      <section class="gym" id="gym" data-magellan-target="gym">
+        <h2>Visit our gym</h2>
+
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-padding-x small-up-3 large-up-7">
+          <div class="cell" style="width: 30rem">
+           
+            <img src="img/Gym1.jpg">
+          </div>
+  
+
+        <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-padding-x large-up-7">
+        <div class="cell" style="width: 30rem">
+          <img src="img/gym2.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+      </section>
+
+      <section class="food">
+        <h1>We'll bring the food to you.</h1>
+
+        
+
+
+      <div class="grid-container ">
+        <div class="grid-x grid-margin-x small-up-3 large-up-5">
+          <div class="cell" style="width: 40rem">
+            <img src="img/Image 13.jpg">
+          </div>
+  
+        <div class="card">
+        
+        <div class="grid-x grid-margin-x small-up-3 large-up-5">
+        <div class="cell" style="width: 40rem">
+          <img src="food3.jpg">
+        </div>
+      </div>
+    </div>
+
+        
+    <div class="card">
+      <div class="grid-x grid-margin-x ">
+        <div class="cell" style="width: 30rem">
+          <img src="food2.jpg">
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+      </section>
+
+      <section class="spa" id="spa" data-magellan-target="spa">
+        <h1>Craving relaxation?</h1>
+        <h2>Book an appointment</h2>
+        <h3>for a spa day today</h3>
+
+         <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-padding-x small-up-3 large-up-7">
+          <div class="cell" style="width: 30rem">
+           
+            <img src="spa1.jpg">
+          </div>
+  
+
+        <div class="grid-container">
+        <div class="grid-x grid-margin-x grid-padding-x large-up-7">
+        <div class="cell" style="width: 30rem">
+          <img src="spa2.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </section>
+
+      <section class="book" id="book" data-magellan-target="book">
+
+         <h1>Book a Room Today</h1>
+
+    <!-- datepicker widget -->
+    <table class="table">
+      <thead>
+        <tr class="grid-x">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+
+    <!-- overlay window with spans used to show data from datepicker -->
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+  <div class="grid-x">
+    <div class="cell">
+      <h1>Success</h1>
+      <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+</div>
+
+      </section>
+
+
+   <section class="footer">
+
+    <div class="grid-container">
+      <div class="cell">
+        <img src="img/logo.png" style="width: 50%">
+      </div>
+
+    <div class="cell">
+      <h1>1E 161st, The Bronx,NYC</h1>
+      <h2>973-498-2843</h2>
+      <h3>Bronxdelight@gmail.com</h3>
+
+    </div>
+
+       <img  src="social.png" alt="social" style="width: 20rem">
+
+   </section>
+
+
+    <footer>
+      
+
+    </footer>
+
+
+
+
+    </header>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
